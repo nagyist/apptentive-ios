@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author   = { "Andrew Wooster" => "andrew@apptentive.com" }
   s.source   = { :git => 'https://github.com/apptentive/apptentive-ios.git', :tag => "trunkTest" }
   s.platform = :ios, '5.0'
-  s.source_files   = 'ApptentiveConnect/source/**/*.{h,m}','ApptentiveConnect/ext/**/*.{h,m}'
+  s.source_files   = 'ApptentiveConnect/source/**/*.{h,m}','ApptentiveConnect/ext/**/*.{h,m}','ApptentiveConnect/source/Misc/ATLog.h'
   s.exclude_files = 'ApptentiveConnect/ext/PrefixedTTTAttributedLabel/**/*.*'
   s.subspec 'arc-files' do |sna|
     sna.requires_arc = true
